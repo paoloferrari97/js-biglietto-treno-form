@@ -54,3 +54,8 @@ select {
 .titoli_2 {
   font-weight: 700;
 }
+
+#genera:hover,
+#annulla:hover {
+  cursor: pointer;
+}
