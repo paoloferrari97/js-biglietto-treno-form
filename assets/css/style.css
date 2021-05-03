@@ -26,6 +26,7 @@ input {
   width: 60%;
   border-radius: 5px;
   border: 1px solid #b91450;
+  text-align: center;
 }
 
 select {
