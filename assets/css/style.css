@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #b91450;
 }
@@ -5,7 +11,6 @@ body {
 .container {
   background-color: white;
   border-radius: 10px;
-  height: 100px;
 }
 
 h1 {
@@ -21,4 +26,31 @@ input {
   width: 60%;
   border-radius: 5px;
   border: 1px solid #b91450;
+}
+
+select {
+  border: 1px solid #b91450;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.bottone {
+  border: 1px solid #848484;
+  background-color: #cccccc;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+}
+
+.row_2 {
+  border-top: 1px solid #848484;
+  border-bottom: 1px solid #848484;
+}
+
+.row_2 > .col-3 {
+  background-color: #808080;
+}
+
+.titoli_2 {
+  font-weight: 700;
 }

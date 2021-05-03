@@ -12,22 +12,54 @@
 
     <h1 class="mt-4 mb-4">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
     <div class="container pt-4 pb-4">
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-4 text-center d-flex flex-column justify-content-center align-items-center">
                 <span class="c-viola mb-3">Nome Cognome</span>
                 <input type="text" id="nome_cognome" name="nome_cognome">
             </div>
             <div class="col-4 text-center d-flex flex-column justify-content-center align-items-center">
                 <span class="c-viola mb-3">Km da percorrere</span>
+                <input type="text" id="km" name="km">
             </div>
             <div class="col-4 text-center d-flex flex-column justify-content-center align-items-center">
                 <span class="c-viola mb-3">Fascia d'età</span>
+                <select name="fascia_età" id="fascia_età">
+                    <option value="volvo">Minorenne</option>
+                    <option value="saab">Over 60</option>
+                    <option value="opel">Fascia media</option>
+                  </select>
             </div>
+        </div>
+        <div class="row mt-4 pt-4 d-flex justify-content-center align-items-center">
+            <span class="bottone c-viola mr-2">Genera</span>
+            <span class="bottone c-viola ml-2">Annulla</span>
         </div>
     </div>
 
     <h1 class="mt-4 mb-4">IL TUO BIGLIETTO</h1>
-    <div class="container pt-4 pb-4"></div>
+    <div class="container pt-4 pb-4 pl-5 pr-5">
+        <h4>DETTAGLIO PASSEGGERI</h4>
+        <div class="row row_2">
+            <div class="col-3 pt-4 pl-4 pr-4">
+                <h4>NOME PASSEGGERO</h4>
+                <h4 class="titoli_2"></h4>
+            </div>
+            <div class="col-9">
+                <div class="row pt-5 pb-5 d-flex justify-content-center align-items-center">
+                    <div class="col-3 titoli_2">Offerta</div>
+                    <div class="col-3 titoli_2">Carrozza</div>
+                    <div class="col-3 titoli_2">Codice CP</div>
+                    <div class="col-3 titoli_2">Costo biglietto</div>
+                </div>
+                <div class="row pt-5 pb-5 d-flex justify-content-center align-items-center">
+                    <div class="col-3"></div>
+                    <div class="col-3"></div>
+                    <div class="col-3"></div>
+                    <div class="col-3"></div>
+                </div>
+            </div>    
+        </div>
+    </div>
 
     <script src="./assets/js/main.js"></script>
 </body>
