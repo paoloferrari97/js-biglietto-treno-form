@@ -1,0 +1,24 @@
+body {
+  background-color: #b91450;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.c-viola {
+  color: #b91450;
+}
+
+input {
+  width: 60%;
+  border-radius: 5px;
+  border: 1px solid #b91450;
+}
