@@ -59,3 +59,7 @@ select {
 #annulla:hover {
   cursor: pointer;
 }
+
+#nome_utente {
+  text-transform: capitalize;
+}
