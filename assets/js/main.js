@@ -12,6 +12,9 @@ function annullare() {
     document.getElementById("offerta").innerHTML = "";
     document.getElementById("carrozza").innerHTML = "";
     document.getElementById("codice_treno").innerHTML = "";
+
+    document.getElementById("biglietto").style.display = "none";
+    document.getElementById("titolo_biglietto").style.display = "none";
 }
 
 function generare() {
@@ -24,6 +27,10 @@ function generare() {
     } else if (isNaN(km) || km == 0) {
         alert("Inserisci i km da percorrere in maniera corretta!");
     } else {
+        //mostro il biglietto
+        document.getElementById("biglietto").style.display = "block";
+    document.getElementById("titolo_biglietto").style.display = "block";
+
         //nome utente
         document.getElementById("nome_utente").innerHTML = nomeUtente;
 
