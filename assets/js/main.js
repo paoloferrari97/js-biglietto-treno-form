@@ -15,6 +15,8 @@ function annullare() {
 
     document.getElementById("biglietto").style.display = "none";
     document.getElementById("titolo_biglietto").style.display = "none";
+
+    document.getElementById("genera").disabled = false;
 }
 
 function generare() {
@@ -30,6 +32,9 @@ function generare() {
         //mostro il biglietto
         document.getElementById("biglietto").style.display = "block";
         document.getElementById("titolo_biglietto").style.display = "block";
+
+        //disabilito bottone genera
+        document.getElementById("genera").disabled = true;
 
         //nome utente
         document.getElementById("nome_utente").innerHTML = nomeUtente;

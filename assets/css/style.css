@@ -59,7 +59,6 @@ select {
 
 #genera:hover,
 #annulla:hover {
-  cursor: pointer;
   background-color: white;
   color: black;
 }
