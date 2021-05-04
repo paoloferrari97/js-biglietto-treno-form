@@ -27,12 +27,14 @@ input {
   border-radius: 5px;
   border: 1px solid #b91450;
   text-align: center;
+  outline-color: #b91450;
 }
 
 select {
   border: 1px solid #b91450;
   border-radius: 5px;
   width: 40%;
+  outline-color: #b91450;
 }
 
 .bottone {
@@ -42,6 +44,7 @@ select {
   padding: 5px 10px 5px 10px;
   font-weight: 500;
   transition: all 2s;
+  outline-color: #b91450;
 }
 
 .row_2 {
