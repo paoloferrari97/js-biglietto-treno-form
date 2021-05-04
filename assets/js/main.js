@@ -29,7 +29,7 @@ function generare() {
     } else {
         //mostro il biglietto
         document.getElementById("biglietto").style.display = "block";
-    document.getElementById("titolo_biglietto").style.display = "block";
+        document.getElementById("titolo_biglietto").style.display = "block";
 
         //nome utente
         document.getElementById("nome_utente").innerHTML = nomeUtente;
